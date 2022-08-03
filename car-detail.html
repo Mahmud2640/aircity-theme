@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Tralveloky | Car Detail Page</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="img/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Font CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,700&display=swap" rel="stylesheet">
+  <!-- Library CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/bootstrap-datepicker.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <!-- Template CSS -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="logo-spinner">
+                <img src="img/logo-2.png" alt="">
+            </div>
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- End of Preloader -->
+  <!-- Header -->
+    <header class="header">
+        <div class="base-header">
+            <div class="header-topbar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="topbar-left list-unstyled list-inline float-left">
+                                <li class="language">
+                                    <a href="#" class="dropdown-text">
+                                        <img src="img/flat-vietnam.png" alt=""><span>VietNam</span>
+                                        <i class="topbar-icon icons-dropdown fa fa-angle-down"></i>
+                                    </a>
+                                    <ul class="dropdown-language list-unstyled hide">
+                                        <li>
+                                            <a href="#" class="link">
+                                                <img src="img/flat-eng.png" alt="">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="link">
+                                                <img src="img/flat-korea.png" alt="">Korean</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="monney">
+                                    <a href="#" class="dropdown-text"> <span>USD</span>
+                                        <i class="topbar-icon icons-dropdown fa fa-angle-down"></i>
+                                    </a>
+                                    <ul class="dropdown-monney list-unstyled hide">
+                                        <li> <a href="#" class="link">VND</a>
+                                        </li>
+                                        <li> <a href="#" class="link">Euro</a>
+                                        </li>
+                                        <li> <a href="#" class="link">JPY</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="topbar-right list-unstyled list-inline float-right">
+                                <li class="topbar-login"><a href="login.html"><i class="fas fa-user"></i>Login</a>
+                                </li>
+                                <li class="topbar-register"><a href="register.html"><i class="fas fa-edit"></i>Register</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-default header-style-1">
+                <div class="container">
+                   <div class="row">
+                       <div class="col-md-12">
+                           <div class="brand-logo">
+                               <div class="logo-white">
+                                    <a href="index.html">
+                                    <img src="img/logo-1.png" alt="" class="img-fluid">
+                                </a>
+                               </div>
+                               <div class="logo-black">
+                                    <a href="index.html">
+                                    <img src="img/logo-1.png" alt="" class="img-fluid">
+                                </a>
+                               </div>
+                            </div>
+                       
+                            <nav class="navbar navbar-expand-lg float-right">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"> <a class="nav-link " href="index.html">Home 
+                                 <i class="fas fa-caret-down"></i>
+                                 </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="index.html" class="dropdown-item">Home Default</a>
+                                            </li>
+                                            <li><a href="home-2.html" class="dropdown-item">HomePage 02</a>
+                                            </li>
+                                            <li><a href="home-3.html" class="dropdown-item">HomePage 03</a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav-item"> <a class="nav-link" href="tour-result-list.html">Tour 
+                                 <i class="fas fa-caret-down"></i>
+                                 </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="tour-result-list.html" class="dropdown-item">Tour Result List </a>
+                                            </li>
+                                            <li><a href="tour-detail.html" class="dropdown-item">Tour Detail</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link " href="hotel-result-list.html">Hotel 
+                                 <i class="fas fa-caret-down"></i>
+                                 </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="hotel-result-list.html" class="dropdown-item">Hotel Result List</a>
+                                            </li>
+                                            <li><a href="hotel-detail.html" class="dropdown-item">Hotel Detail</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li class="nav-item"> <a class="nav-link" href="#">blog <i class="fas fa-caret-down"></i></a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog-list.html" class="dropdown-item">Blog List</a>
+                                            </li>
+                                            <li><a href="blog-detail.html" class="dropdown-item">Blog detail</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link" href="contact.html">contact</a>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link active" href="#">Pages 
+                                 <i class="fas fa-caret-down"></i>
+                                 </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="about.html" class="dropdown-item">about Us</a>
+                                            </li>
+                                            <li><a href="car-result-list.html" class="dropdown-item">Car Result List</a>
+                                            </li>
+                                            <li><a href="car-detail.html" class="dropdown-item">Car Detail</a>
+                                            </li>
+                                            <li><a href="404.html" class="dropdown-item">404 Page</a>
+                                            </li>
+                                            
+                                            <li><a href="faq.html" class="dropdown-item">FAQ</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item btn-search"> <a class="nav-link" href="javascript:void(0)"><i class="fas fa-search"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="nav-search hide">
+                                    <form>
+                                        <input type="text" placeholder="Search" class="searchbox">
+                                        <button type="submit" class="searchbutton fa fa-search"></button>
+                                    </form>
+                                </div>
+                            </nav>
+                        
+                        <!-- Nav Mobile -->
+                        <div class="navigation-mobile">
+                            <div class="icon-nav-mobile-open"> <i class="fas fa-bars"></i>
+                            </div>
+                            <nav class="navbar for-mobile">
+                                <ul class="navbar-nav" id="accordion">
+                                    
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="collapse" data-target="#home" aria-expanded="true" aria-controls="home" href="index.html">Home 
+                                 <i class="fas fa-caret-down"></i>
+                                 </a>
+                                        <ul class="sub-menu collapse" id="home" data-parent="#accordion">
+                                            <li><a href="index.html" class="dropdown-item">Home Default</a>
+                                            </li>
+                                            <li><a href="home-2.html" class="dropdown-item">HomePage 02</a>
+                                            </li>
+                                            <li><a href="home-3.html" class="dropdown-item">HomePage 03</a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </li>
+                                     <li class="nav-item"> <a class="nav-link active" href="#" data-toggle="collapse" data-target="#pages" aria-expanded="true" aria-controls="pages">Pages <i class="fas fa-caret-down"></i></a>
+                                        <ul class="sub-menu collapse" id="pages" data-parent="#accordion">
+                                            <li><a href="about.html" class="dropdown-item">about Us</a>
+                                            </li>
+                                            <li><a href="car-result-list.html" class="dropdown-item">Car Result List</a>
+                                            </li>
+                                            <li><a href="car-detail.html" class="dropdown-item">Car Detail</a>
+                                            </li>
+                                            <li><a href="404.html" class="dropdown-item">404 Page</a>
+                                            </li>
+                                            
+                                            <li><a href="faq.html" class="dropdown-item">FAQ</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="collapse" data-target="#tour" aria-expanded="true" aria-controls="tour" href="tour-result-list.html">Tour 
+                                 <i class="fas fa-caret-down"></i>
+                                 </a>
+                                        <ul class="sub-menu collapse" id="tour" data-parent="#accordion">
+                                            <li><a href="tour-result-list.html" class="dropdown-item">Tour Result List</a>
+                                            </li>
+                                            <li><a href="tour-detail.html" class="dropdown-item">Tour Detail</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link" data-toggle="collapse" data-target="#hotel" aria-expanded="false" aria-controls="hotel" href="hotel-result-list.html">Hotel 
+                                 <i class="fas fa-caret-down"></i>
+                                 </a>
+                                        <ul class="sub-menu collapse" id="hotel" data-parent="#accordion">
+                                            <li><a href="hotel-result-list.html" class="dropdown-item">Hotel Result List</a>
+                                            </li>
+                                            <li><a href="hotel-detail.html" class="dropdown-item">Hotel Detail</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link" href="#" data-toggle="collapse" data-target="#blog" aria-expanded="true" aria-controls="blog">blog <i class="fas fa-caret-down"></i></a>
+                                        <ul class="sub-menu collapse" id="blog" data-parent="#accordion">
+                                            <li><a href="blog-list.html" class="dropdown-item">Blog List</a>
+                                            </li>
+                                            <li><a href="blog-detail.html" class="dropdown-item">Blog detail</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                   
+                                    <li class="nav-item"> <a class="nav-link" href="contact.html">contact</a>
+                                    </li>
+
+                                    <li class="nav-item btn-search"> <a class="nav-link" href="javascript:void(0)"><i class="fas fa-search"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="nav-search hide">
+                                    <form>
+                                        <input type="text" placeholder="Search" class="searchbox">
+                                        <button type="submit" class="searchbutton fa fa-search"></button>
+                                    </form>
+                                </div>
+                                <div class="icon-nav-mobile-close"> <i class="fas fa-times"></i>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- End Nav mobile -->
+                       </div>
+                   </div>
+                            
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+  <!-- Content Page -->
+  <div class="wrapper-page">
+    <div class="content">
+        <!-- Breadcrumb Section -->
+            <div class="page-breadcrumb bg-car-breadcrumb d-flex h-100">
+                <div class="content-breadcrumb align-self-end w-100 text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="text-breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">Home</a>
+                                        </li>
+                                        <li class="breadcrumb-item"><a href="#"><i class="fas fa-angle-right"></i></a>
+                                        </li>
+                                        <li class="breadcrumb-item active" aria-current="page">CAR RENT</li>
+                                    </ol>
+                                    <div class="title-breadcrumb">
+                                        <h1>CAR Detail</h1> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Breadcrumb Section -->
+      <!-- Hotel Content Section -->
+      <div class="car-content">
+        
+        
+      
+        
+        <div class="car-overview-section">
+          <div class="car-overview-content">
+            <div class="container">
+              
+              <div class="descition-car">
+                <h3 class="car-overview-title">MERCEDES C200</h3>
+                <div class="row">
+                <div class="col-md-12 col-lg-12">
+                  <div id="carousel-img-car" class="carousel slide">
+                <!-- main slider carousel items -->
+                <div class="carousel-inner">
+                    <div class="active carousel-item" data-slide-number="0">
+                        <img src="img/overview-car-1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="carousel-item" data-slide-number="1">
+                        <img src="img/overview-car-2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="carousel-item" data-slide-number="2">
+                        <img src="img/overview-car-3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="carousel-item" data-slide-number="3">
+                        <img src="img/overview-car-4.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="carousel-item" data-slide-number="4">
+                        <img src="img/overview-car-5.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                  
+
+                    <a class="carousel-control-prev" href="#carousel-img-car" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-img-car" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+                <!-- main slider carousel nav controls -->
+
+
+                <ul class="carousel-indicators list-inline mx-auto">
+                    <li class="list-inline-item active">
+                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carousel-img-car">
+                            <img src="img/overview-car-thumb-1.jpg" alt="" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a id="carousel-selector-1" data-slide-to="1" data-target="#carousel-img-car">
+                            <img src="img/overview-car-thumb-2.jpg" alt="" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a id="carousel-selector-2" data-slide-to="2" data-target="#carousel-img-car">
+                            <img src="img/overview-car-thumb-3.jpg" alt="" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a id="carousel-selector-3" data-slide-to="3" data-target="#carousel-img-car">
+                            <img src="img/overview-car-thumb-4.jpg" alt="" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a id="carousel-selector-4" data-slide-to="4" data-target="#carousel-img-car">
+                            <img src="img/overview-car-thumb-5.jpg" alt="" class="img-fluid">
+                        </a>
+                    </li>
+                    
+                   
+                    
+                </ul>
+            </div>
+                </div>
+                <div class="col-md-12 col-lg-12">
+                  <div class="text-descition-car">
+                  <p>
+                          Conveniently set in the District 1 district of Ho Chi Minh City, Ben Thanh Retreats Hotel is located a 12-minute walk from Ben Thanh Street Food Market, 1 km from Tao Dan Park and a 15-minute walk from Museum of Ho Chi Minh City. Among the facilities of this property are a restaurant, a 24-hour front desk and a shared kitchen, along with free WiFi. The property provides room service, a shared lounge and currency exchange for guests.
+                          Guest rooms has air conditioning, a flat-screen TV with cable channels, a fridge, an electric tea pot, a bidet, a hairdryer and a desk. Rooms come complete with a private bathroom equipped with a shower and free toiletries, while certain units at the hotel also offer a seating area. The rooms include a closet.
+                        </p>
+                        <p>
+                          A à la carte breakfast is available daily at Ben Thanh Retreats Hotel. The accommodation has a sun terrace. Popular points of interest near Ben Thanh Retreats Hotel include Fine Arts Museum, Ben Thanh Market and Takashimaya Vietnam. The nearest airport is Tan Son Nhat International, 12.9 km from the hotel, and the property offers a paid airport shuttle service. District 1 is a great choice for travelers interested in museums, shopping and history. This is our guests' favorite part of Ho Chi Minh City, according to independent reviews. Couples in particular like the location – they rated it 9.5 for a two-person trip. We speak your language!
+                        </p>
+                </div>
+                </div>
+
+              </div>
+              </div>
+              
+              
+              <div class="car-surroundings">
+                <h3 class="car-overview-title">Car surroundings</h3>
+                <div class="row">
+                  <div class="col-md-12 col-lg-4">
+                    
+                      
+                      <ul>
+                        <li>
+                          <i class="fas fa-car-alt mr-3"></i><span>Automatic</span>
+                          
+                        </li>
+                        <li>
+                          <i class="fas fa-charging-station mr-3"></i><span>5 People</span>
+                          
+                        </li>
+                        <li>
+                          <i class="fas fa-heartbeat mr-3"></i><span>Air Conditioned</span>
+                          
+                        </li>
+                        <li>
+                          <i class="fas fa-heartbeat mr-3"></i><span>Air Conditioned</span>
+                          
+                        </li>
+                      </ul>
+                    
+                  </div>
+                  <div class="col-md-12 col-lg-4">
+                    <ul>
+                        <li>
+                          <i class="fas fa-car-alt mr-3"></i><span>At Airport</span>
+                          
+                        </li>
+                        <li>
+                          <i class="fas fa-charging-station mr-3"></i><span>Unlimited Miles</span>
+                          
+                        </li>
+                        <li>
+                          <i class="fas fa-heartbeat mr-3"></i><span>Auto mobile</span>
+                          
+                        </li>
+                        <li>
+                          <i class="fas fa-heartbeat mr-3"></i><span>Television</span>
+                          
+                        </li>
+                      </ul>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group-btn-booking">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 col-lg-12 text-center">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#form-booking-now" aria-expanded="false" aria-controls="form-booking-now">Book Now <i class="fas fa-caret-down"></i></button>
+              </div>
+              <div class="col-md-12 col-lg-10 offset-lg-1">
+                <div class="collapse" id="form-booking-now">
+                  <div class="card card-body">
+                    <div class="form-booking">
+                      <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                          <div class="form-group">
+                            <label>Your First Name</label>
+                            <input type="text" class="form-control" placeholder="Write Your First Name"> <i class="fas fa-user"></i>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                          <div class="form-group">
+                            <label>Your Last Name</label>
+                            <input type="text" class="form-control" placeholder="Write Your Last Name"> <i class="fas fa-user"></i>
+                          </div>
+                        </div>
+                         <div class="col-md-6 col-lg-6">
+                          <div class="form-group">
+                            <label>Your Phone</label>
+                            <input type="text" class="form-control" placeholder="Write Your Email"> <i class="fas fa-mobile-alt"></i>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                          <div class="form-group">
+                            <label>Your Email</label>
+                            <input type="text" class="form-control" placeholder="Write Your Email"> <i class="fas fa-envelope"></i>
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                          <div class="form-group">
+                            <label>Where are your address?</label>
+                            <input type="text" class="form-control" placeholder="Where are your address?"> <i class="fas fa-map-marker-alt"></i>
+                          </div>
+                        </div>
+                       
+                        <div class="col-md-6 col-lg-3">
+                          <div class="form-group">
+                            <label>Check in</label>
+                            <input type="text" class="form-control date" placeholder="MM/DD/YY"> <i class="fas fa-calendar-alt"></i>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <div class="form-group">
+                            <label>Check in</label>
+                            <input type="text" class="form-control date" placeholder="MM/DD/YY"> <i class="fas fa-calendar-alt"></i>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <div class="form-group">
+                            <label>Adult</label>
+                            <input type="text" class="form-control" placeholder="1"> <i class="fas fa-user"></i>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                          <div class="form-group">
+                            <label>Children</label>
+                            <input type="text" class="form-control" placeholder="1"> <i class="fas fa-user"></i>
+                          </div>
+                        </div>
+                        <div class="col-md-12 col-lg-12">
+                          <div class="form-group">
+                            <label>Message</label>
+                            <textarea class="textarea-booking" placeholder="Message..."></textarea>
+                          </div>
+                          
+                        </div>
+                        <div class="col-md-12 col-lg-12 text-center">
+                          
+                          <button type="submit" class="btn btn-secondary">Send Now</button>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Hotel Content Section -->
+       <!-- CTA Section -->
+            <div class="CTA-1">
+                <div class="CTA-content text-center text-white">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-8 offset-lg-2">
+                                <div class="CTA-text">
+                                    <h1>IT’S A BIG WORLD OUT THERE</h1>
+                                    <h3>GO EXPLORE</h3>
+                                    <p>Wherever you want to go and whatever you want to do, makes it easy and supports you with 24/7 customer support. 28 million reported accommodation listings, including over 6.2 million homes, apartments, and other unique places to stay</p>
+                                </div>
+                                <div class="CTA-button"> <a href="" class="btn btn-primary">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End CTA Section -->
+      <!-- Special Offer Section -->
+      <div class="special-offer">
+        <div class="title-subpage">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1>tours</h1>
+                <h3>SPECIAL OFFER</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-special-offer">
+          <div class="container">
+            <div class="owl-carousel owl-theme" id="carousel04">
+              <div class="item">
+                <div class="card tour-offer border-0">
+                  <div class="card-content">
+                    <div class="img-tour-offer">
+                      <img src="img/offer-1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="info-tour-offer">
+                      <h5 class="card-title">Hokkaido, Japan</h5>
+                      <p>3 Days 2 Nights</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End item -->
+              <div class="item">
+                <div class="card tour-offer border-0">
+                  <div class="card-content">
+                    <div class="img-tour-offer">
+                      <img src="img/offer-2.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="info-tour-offer">
+                      <h5 class="card-title">Waitomo, new zealand</h5>
+                      <p>3 Days 2 Nights</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End item -->
+              <div class="item">
+                <div class="card tour-offer border-0">
+                  <div class="card-content">
+                    <div class="img-tour-offer">
+                      <img src="img/offer-3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="info-tour-offer">
+                      <h5 class="card-title">London, England</h5>
+                      <p>3 Days 2 Nights</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End item -->
+              <div class="item">
+                <div class="card tour-offer border-0">
+                  <div class="card-content">
+                    <div class="img-tour-offer">
+                      <img src="img/offer-4.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="info-tour-offer">
+                      <h5 class="card-title">PhongNha, VietNam</h5>
+                      <p>3 Days 2 Nights</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End item -->
+            </div>
+            <!-- End owl-carousel -->
+          </div>
+        </div>
+      </div>
+      <!-- End Special Offer Section -->
+      <!-- Subscribe Email Section -->
+      <div class="subscribe-email">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-8">
+              <div class="subscribe-content">
+                <div class="subscribe-email-title">
+                  <h3>Subscribe Exploore to get latest deals to day</h3>
+                  <p>Traveloky seamlessly connects millions of travelers to memorable experiences</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-4">
+              <div class="subscribe-form">
+                <form action="index.html">
+                  <div class="form-group form-subscribe-email">
+                    <input type="text" placeholder="Write your email" class="form-control">
+                    <button type="submit" class="btn-email"><i class="fas fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Subscribe Email Section -->
+    </div>
+    <!-- Button Back Top -->
+    <div class="back-top"> <a href="#top"><i class="fas fa-angle-up"></i></a> 
+    </div>
+    <!-- End Button Back Top -->
+  </div>
+  <!-- End Content Page -->
+  <!-- Footer Style -->
+  <footer>
+    <div class="bg-footer">
+      <div class="footer-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-3">
+              <div class="info-company-widget">
+                <div class="footer-logo">
+                  <h1><a href="index.html">Traveloky</a></h1>
+                </div>
+                <div class="content-widget">
+                  <p>Traveloky perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium aperiam.</p> <span><i class="fas fa-phone"></i>1800-000-1203</span>
+                  <div class="social"> <a href=""><i class="fab fa-facebook-square"></i></a>  <a href=""><i class="fab fa-twitter"></i></a>  <a href=""><i class="fab fa-pinterest"></i></a>  <a href=""><i class="fas fa-rss"></i></a>  <a href=""><i class="fab fa-instagram"></i></a> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-3">
+              <div class="useful-link-widget">
+                <div class="title-widget">
+                  <h4>Explore</h4>
+                  <hr>
+                </div>
+                <div class="content-widget">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-12">
+                      <ul>
+                        <li><a href="">Tour Singapore City</a> 
+                        </li>
+                        <li><a href="">Tour Manila City</a> 
+                        </li>
+                        <li><a href="">Tour New York City</a> 
+                        </li>
+                        <li><a href="">Tour Sanghai City</a> 
+                        </li>
+                        <li><a href="">Tour Hongkong City</a> 
+                        </li>
+                        <li><a href="">Tour HaNoi City</a> 
+                        </li>
+                        <li><a href="">Tour Tokyo City</a> 
+                        </li>
+                        <li><a href="">Tour SaiGon City</a> 
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-3">
+              <div class="blog-widget">
+                <div class="title-widget">
+                  <h4>FORM THE BLOG</h4>
+                  <hr>
+                </div>
+                <div class="content-widget">
+                  <div class="media">
+                    <div class="images-media">
+                      <a href="" class="img-hover">
+                        <img src="img/gallery-05.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="content-media"> <a href="">An Open Letter to Real Estate Tech Founders</a>
+                      <p class="date-created">Otc 22,2019</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="images-media">
+                      <a href="" class="img-hover">
+                        <img src="img/gallery-04.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="content-media"> <a href="">An Open Letter to Real Estate Tech Founders</a>
+                      <p class="date-created">Otc 22,2019</p>
+                    </div>
+                  </div>
+                  <div class="media">
+                    <div class="images-media">
+                      <a href="" class="img-hover">
+                        <img src="img/gallery-02.jpg" alt="">
+                      </a>
+                    </div>
+                    <div class="content-media"> <a href="">An Open Letter to Real Estate Tech Founders</a>
+                      <p class="date-created">Otc 22,2019</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-3">
+              <div class="gallery-widget">
+                <div class="title-widget">
+                  <h4>GALLERIES</h4>
+                  <hr>
+                </div>
+                <div class="content-widget">
+                  <div class="list-gallery">
+                    <a href="#">
+                      <img src="img/gallery-01.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="img/gallery-02.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="img/gallery-03.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="img/gallery-04.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="img/gallery-05.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="img/gallery-06.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="img/gallery-01.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="img/gallery-02.jpg" class="img-fluid" alt="">
+                    </a>
+                    <a href="#">
+                      <img src="img/gallery-03.jpg" class="img-fluid" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="text-coppyright text-center"> <small>Design by AliceLab 2020. All Right Reserved</small> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer Style -->
+  <!-- Bootstrap JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <!-- Custom scripts  -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
