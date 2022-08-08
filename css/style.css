@@ -418,8 +418,8 @@ input.form-control.date::placeholder {
 }
 .spinner {
   position: absolute;
-  top: 50%; /* centers the loading animation vertically one the screen */
-  left: 50%; /* centers the loading animation horizontally one the screen */
+  top: 45%; /* centers the loading animation vertically one the screen */
+  left: 49%; /* centers the loading animation horizontally one the screen */
   width: 3.75rem;
   height: 3.25rem;
   margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */
@@ -725,7 +725,8 @@ ul.topbar-right li:nth-child(2) {
 }
 
 .brand-logo {
-  display: inline-block;
+  display: none;
+  border: 5px solid red;
 }
 
 .header-fixed .brand-logo .logo-white {
@@ -748,6 +749,9 @@ ul.topbar-right li:nth-child(2) {
 
 .header-fixed .brand-logo .logo-white img {
   margin-top: -15px;
+}
+.logo img{
+  margin-right: 300px;
 }
 
 .base-header.bg-white .brand-logo .logo-white {
@@ -873,7 +877,7 @@ ul.navbar-nav li.nav-item.btn-search a.nav-link:before {
   transition: all 0.4s ease;
 }
 ul.navbar-nav li a.nav-link:hover {
-  color: #ffffff;
+  color: #fff;
 }
 .navbar-nav ul li a {
   text-transform: uppercase;
@@ -988,7 +992,7 @@ ul.navbar-nav li i {
   width: 100%;
 }
 .bg-slide.bg-home2 {
-  background: url(../img/bg-slide-home2.jpg);
+  background: url(../img/cov-5.png);
   background-attachment: fixed;
   background-position: center;
   min-height: 700px;
@@ -1983,7 +1987,7 @@ ul.navbar-nav li i {
 /* ============= Contact Us Section ============= */
 
 .contact-us {
-  background-image: url(../img/bg-contact-1.jpg);
+  background-image: url(../img/bg-blue.png);
   padding: 90px 0px;
   background-size: cover;
   background-position: center;
@@ -2488,7 +2492,7 @@ textarea.textarea-contact::placeholder {
 /* ============= Page Tour Result List ============= */
 
 .bg-tour-breadcrumb {
-  background-image: url(../img/bg-breadcrumb-tour.jpg);
+  background-image: url(../img/background-1.jpg);
 }
 .tour-info {
   line-height: 80px;
@@ -4119,7 +4123,7 @@ h3.car-overview-title {
 /* ============= Page FAQ ============= */
 
 .bg-faq-breadcrumb {
-  background-image: url(../img/bg-breadcrumb-faq.jpg);
+  background-image: url(../img/bg-blue.png);
   background-size: contain;
 }
 .accordion.question-faq .card-header {
@@ -4155,7 +4159,7 @@ h3.car-overview-title {
 }
 
 .form-request {
-  background-image: url(../img/bg-form-request.jpg);
+  background-image: url(../img/bg-blue.png);
   padding: 100px 0px;
   background-size: cover;
   background-attachment: fixed;
