@@ -750,7 +750,7 @@ ul.topbar-right li:nth-child(2) {
 .header-fixed .brand-logo .logo-white img {
   margin-top: -15px;
 }
-.logo img{
+.logo img {
   margin-right: 300px;
 }
 
@@ -1529,7 +1529,7 @@ ul.navbar-nav li i {
 
 .services-tour {
   padding: 100px 0px;
-  background-image: url(../img/bg-servivces-tour.jpg);
+  background-image: url(/img/bg-service.jpeg);
 }
 .card-services-tour {
   border: 2px solid #316ffe00;
@@ -1653,34 +1653,6 @@ ul.navbar-nav li i {
   margin-bottom: 12px;
 }
 /* ============= CTA Section ============= */
-
-.CTA-1 {
-  padding: 100px 0px;
-  background-image: url(../img/CTA-bg.jpg);
-}
-.CTA-1 .CTA-text h1 {
-  font-weight: 100;
-  font-size: 24px;
-}
-.CTA-1 .CTA-text h3 {
-  font-size: 80px;
-  margin: 8px 0px;
-  color: #ffffff;
-}
-.CTA-1 .CTA-text p {
-  color: #fff;
-  margin-bottom: 34px;
-}
-.CTA-1 .CTA-button a.btn.btn-primary {
-  color: #fff;
-  border: 2px solid #316ffe;
-  background: #316ffe;
-}
-.CTA-1 .CTA-button a.btn.btn-primary:hover {
-  border: 2px solid #ffffff !important;
-  background: #ffffff78;
-  color: #fff;
-}
 
 .CTA-2 {
   padding: 100px 0px;
@@ -1917,127 +1889,6 @@ ul.navbar-nav li i {
 }
 /* ============= News Section ============= */
 
-.news {
-  padding: 90px 0px;
-}
-.content-news .title-news h1 {
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: bold;
-  color: #316ffe;
-  text-transform: uppercase;
-}
-.info-news ul.info li {
-  display: inline-block;
-}
-.info-news ul.info li:nth-child(1) {
-  border-right: 1px solid #ccc;
-  padding-right: 8px;
-}
-.info-news ul.info li a:hover {
-  text-decoration: none;
-}
-.info-news ul.info li:nth-child(2) {
-  padding-left: 8px;
-}
-.info-news ul.info {
-  margin: 0px;
-  margin-top: 8px;
-  margin-bottom: 16px;
-}
-.info-news ul.info li a {
-  font-size: 14px;
-  font-weight: bold;
-  color: #495057;
-}
-.info-news ul.info li i {
-  margin-right: 8px;
-}
-.text-news p:nth-child(1) {
-  margin-bottom: 16px;
-}
-.text-news {
-  margin: 24px 0px;
-}
-.tags-news ul li {
-  display: inline-block;
-}
-.tags-news ul {
-  display: inline-block;
-}
-.tags-news .title-tag {
-  display: inline-block;
-}
-#carousel03 .owl-dots {
-  margin-top: 24px;
-}
-#carousel03 .owl-dot span {
-  border: 4px solid #eee;
-  padding: 0px 0px;
-  width: 18px;
-  height: 18px;
-  background: none;
-}
-#carousel03 .owl-dot.active span {
-  background: #316ffe;
-}
-#carousel03 .owl-nav {
-  display: none;
-}
-/* ============= Contact Us Section ============= */
-
-.contact-us {
-  background-image: url(../img/bg-blue.png);
-  padding: 90px 0px;
-  background-size: cover;
-  background-position: center;
-}
-.form-contact-us .title-form h3 {
-  font-size: 18px;
-  font-weight: 100;
-  margin-top: 4px;
-  margin-bottom: 18px;
-  line-height: 30px;
-  color: #fff;
-}
-.form-contact-us .title-form h1 {
-  color: #fff;
-}
-.form-contact-us {
-  background: #316ffee0;
-  padding: 34px 24px;
-  border-radius: 4px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-}
-.form-contact-us textarea.textarea-contact {
-  width: 100%;
-  height: 150px;
-  padding: 13px 14px;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-}
-textarea.textarea-contact:focus {
-  color: #495057;
-  border-color: #316ffe;
-  background-color: #fff;
-  outline: 0;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
-}
-textarea.textarea-contact::placeholder {
-  color: #a5a5a5;
-}
-.form-contact-us button.btn.btn-secondary {
-  margin: auto;
-  display: block;
-  margin-top: 24px;
-  background: #33ca52;
-  border: 3px solid #33ca52;
-  color: #fff;
-}
-.form-contact-us button.btn.btn-secondary:hover {
-  background: none;
-  border: 3px solid #ffffff;
-}
 /* ============= Footer ============= */
 
 .bg-footer {
