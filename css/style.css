@@ -2010,7 +2010,7 @@ ul.navbar-nav li i {
   top: -176px;
   margin-bottom: -176px;
   background-attachment: fixed;
-  min-height: 500px;
+  min-height: 200px;
   background-position: top;
   position: relative;
   background-size: cover;
@@ -2340,10 +2340,6 @@ ul.navbar-nav li i {
   margin-top: 28px;
 }
 /* ============= Page Tour Result List ============= */
-
-.bg-tour-breadcrumb {
-  background-image: url(../img/tour-bg.png);
-}
 .tour-info {
   line-height: 80px;
   height: 80px;
