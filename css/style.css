@@ -2342,7 +2342,7 @@ ul.navbar-nav li i {
 /* ============= Page Tour Result List ============= */
 
 .bg-tour-breadcrumb {
-  background-image: url(../img/background-1.jpg);
+  background-image: url(../img/tour-bg.png);
 }
 .tour-info {
   line-height: 80px;
@@ -2676,8 +2676,7 @@ a.page-link {
   font-size: 16px;
   font-weight: 300;
 }
-.journey-section,
-.tour-overview-section {
+.journey-section {
   margin-top: 60px;
 }
 .group-btn-booking {
