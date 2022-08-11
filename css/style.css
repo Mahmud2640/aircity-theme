@@ -475,12 +475,6 @@ input.form-control.date::placeholder {
 
 /*Top Bar*/
 
-.header-topbar {
-  font-size: 14px;
-  padding: 8px 0px;
-  border-bottom: 1px solid #ffffff73;
-}
-
 .header-topbar.bg-blue {
   background: #316ffe;
 }
@@ -2016,7 +2010,7 @@ ul.navbar-nav li i {
   background-size: cover;
 }
 .bg-about-breadcrumb {
-  background-image: url(../img/bg-breadcrumb-about.jpg);
+  background-color: #1565c0;
 }
 .text-breadcrumb ol.breadcrumb {
   background: none;
