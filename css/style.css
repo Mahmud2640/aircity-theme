@@ -3753,7 +3753,7 @@ h3.car-overview-title {
 /* ============= Page 404 ============= */
 
 .page-404 {
-  background: url(../img/bg-404.jpg);
+  background: url(../img/bg-404-1.jpg);
   min-height: 100vh;
   background-position: center;
   position: relative;
@@ -3766,25 +3766,22 @@ h3.car-overview-title {
   position: relative;
   z-index: 10;
 }
-.text-404 h1 {
-  font-size: 200px;
-  letter-spacing: 18px;
-  text-transform: uppercase;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  line-height: 200px;
+
+.text-404 img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
 }
 
 .text-404 h3 {
   color: #fff;
   text-transform: uppercase;
-  font-weight: 100;
+  font-weight: 500;
   margin-top: 12px;
-  margin-bottom: 24px;
-  font-size: 48px;
-  letter-spacing: 10px;
+  margin-bottom: 150px;
+  font-size: 50px;
+  letter-spacing: 15px;
 }
-
 .cloud1-404 {
   background-image: url(../img/cloud-1.png);
   position: absolute;
